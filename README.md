@@ -21,11 +21,11 @@
 
 ---
 
-> 配套公众号「AI 安全工坊」每周更新 · CVE 实战复现 + 生产级加固代码 + 企业自检脚本 · MIT License
+> 配套公众号「AI 安全工坊」高频更新 · CVE 实战复现 + 生产级加固代码 + 企业自检脚本 · MIT License
 
 ## 这是什么
 
-公众号「**AI 安全工坊**」每周更新一篇主轨技术文章，配套：
+公众号「**AI 安全工坊**」高频更新主轨技术文章，配套：
 
 - **可复现 PoC 脚本**（Python / Docker）
 - **加固代码**（生产可用）
@@ -38,11 +38,11 @@
 
 ## 最新文章
 
-| 日期 | 文章 | 主题 | 工具 |
+| 日期 | 文章 | 主题 | 内容 |
 |------|------|------|------|
-| **2026-05-13** | [我在 30 行 Python 里拿到 LiteLLM 的 root：CVE-2026-30623 实战 + 加固](articles/2026-05-13-mcp-cve-30623/) | MCP STDIO 命令注入 | poc_vulnerable / poc_hardened / litellm_hardening |
-| 2026-05-20 | LiteLLM 供应链投毒溯源（W3 / 即将上线） | 供应链安全 | TBD |
-| 2026-05-27 | 企业 MCP 部署 18 项自检清单（W4 / 即将上线） | 企业安全 SOP | TBD |
+| **2026-05-09** | [AI 红队工具怎么选？6 类 18 款对比](articles/2026-05-09-ai-redteam-tool-selection/) | 工具选型 / 决策矩阵 | 6 类 18 款工具对照表 + 5 场景决策矩阵 + 4 大权威分类背书 |
+| 2026-05-07 | [我在 30 行 Python 里拿到 LiteLLM 的 root：CVE-2026-30623 实战 + 加固](articles/2026-05-13-mcp-cve-30623/) | MCP STDIO 命令注入 | poc_vulnerable / poc_hardened / litellm_hardening |
+| TBD | W4 主题待定（视 W3 数据后定） | TBD | TBD |
 
 ---
 
@@ -159,7 +159,14 @@ ai-security-workshop/
 
 ---
 
-### 其他相关项目
+### 其他相关项目 / 知识资源
+
+**自营知识资源**
+
+- 🧰 [aiseckit.com](https://aiseckit.com/) — **AI 安全工具导航站**，找工具 / 找入口
+- 📚 [飞书 AI 安全开放知识库](https://my.feishu.cn/wiki/TTAkwC0GliX141kZBSuccucrnDb) — 中文 AI 安全完整知识库（数据 / 模型 / Agent / RAG / MCP / A2A / 供应链 / 治理）
+
+**GitHub 开源项目**
 
 - [taielab/awesome-hacking-lists](https://github.com/taielab/awesome-hacking-lists) — 1.3k+ Stars · 渗透测试 + AI 攻防工具索引
 - [taielab/Taie-Bugbounty-killer](https://github.com/taielab/Taie-Bugbounty-killer) — 自动化漏赏挖掘
